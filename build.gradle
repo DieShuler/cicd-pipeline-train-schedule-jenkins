@@ -12,6 +12,7 @@ node {
 //declare a build task
 task build
 
+// This is an arbitrary change to the code.
 //declare a task to create a zip of the app
 task zip(type: Zip) {
 	from ('.') {
